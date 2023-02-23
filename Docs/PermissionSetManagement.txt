@@ -1,0 +1,53 @@
+Table of contents:
+1. Base Permissionsets - what and why
+2. Base setup for Teams using Base Permissionsets
+3. Adding Custom Permissions
+
+Note: PermissionSets are like AWS IAM Roles and work similarly. The only difference being these can be defined outside of an account and used across muktiple accounts
+
+Base permissionsets:
+These are defined to be used across teams and accounts and are defined using AWS-Managed-Polcies.
+Intent is to reduce the management toil on defining and maintaining permissionsets that define generic or job fucntion level access like readonly, admin, poweruser etc..
+
+Base setup:
+When onboarding, every Functional-Team has the option to choose from the following base permissionsets:
+1. adminAccess      ["arn:aws:iam::aws:policy/AdministratorAccess"]
+2. poweruserAccess  ["arn:aws:iam::aws:policy/PowerUserAccess"]
+3. readonlyAccess   ["arn:aws:iam::aws:policy/ReadOnlyAccess"]
+4. dbaAccess        ["arn:aws:iam::aws:policy/job-function/DatabaseAdministrator"]
+5. [Can add more base premissionsets]
+
+The team manager will choose which of these permissionsets they would like to map to the accounts they want access to.
+There will be a review and approval cycle before these permissionsets are granted to the teams.
+They can choose more than one permissionset per account like 
+    (readonlyAccess, dbaAccess) or 
+    (adminAccess,readonlyAccess) -> in case they want to choose between accessing in edit mode or safe mode
+
+Case for custom permissionsets:
+If the existing base premissionsets dont cater for the Functional-team's need like
+1. No PermissionSet covers all the required permissions for Functional-Team's need
+2. PermissionSet like adminAccess provides way more permissions than needed and becomes a security risk
+3. Need to use Customer-Managed-Policies defined at the account level
+
+Creation of custome permissionsets:
+Obtain from Team the list of new permissionsets
+    List AWS-Managed-Policies that are applicable if any
+    List Customer-Managed-Policies per account that are applicable if any (these need to be defined on Account and will be referneced by name and path)
+    Review the matrix and seek approvals
+Define the permissionsets in permissionsets.yml [by IAM team]
+    Go to or create the section for Team 
+        Schema:
+            name: <<Functional Team Name>>
+            permissionsets:
+                permission-name: <<Functional Team Name prefix>><<Name of the custom Permission set>> # Have to be an unique name across teams
+                policies: 
+                - ARN of the policy to be attached
+                - ARN of the policy to be attached
+                
+                permission-name: <<Functional Team Name prefix>><<Name of the custom Permission set>> # Have to be an unique name across teams
+                policies: 
+                - ARN of the policy to be attached
+                - ARN of the policy to be attached
+    Review and seek required approvals
+    Run pipeline to create these PermissionSet
+Update Permission-Mappings in teams.yml [by IAM team]

@@ -1,0 +1,1846 @@
+---
+
+Functional_Team_name: "infra-admins"
+assignments:
+  accounts:
+    - account_name: "prod-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-tools"
+      permissions: 
+      - adminAccess
+    - account_name: "rh-dr"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-sre"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-payvas"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "data-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "sit-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "rackspace-tickets"
+      permissions: 
+      - adminAccess
+    - account_name: "aws-rh-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "identity-cloudeng"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-dr"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-Dev"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-cloudeng"
+      permissions: 
+      - adminAccess
+    - account_name: "sandbox-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "dr-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "bike-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "marketing"
+      permissions: 
+      - adminAccess
+    - account_name: "rh-3rd-party-tools"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-assets"
+      permissions: 
+      - adminAccess
+    - account_name: "it-dns-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "people-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-staging"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "backup-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "Application-Security-staging"
+      permissions: 
+      - adminAccess
+    - account_name: "dr-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "networking"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "tooling-sre"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-staging"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-commons"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "infraops-team"
+assignments:
+  accounts:
+    - account_name: "prod-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-tools"
+      permissions: 
+      - adminAccess
+    - account_name: "rh-dr"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-sre"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-payvas"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "data-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "sit-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "rackspace-tickets"
+      permissions: 
+      - adminAccess
+    - account_name: "aws-rh-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "identity-cloudeng"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-dr"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-Dev"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-cloudeng"
+      permissions: 
+      - adminAccess
+    - account_name: "sandbox-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "dr-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "bike-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "marketing"
+      permissions: 
+      - adminAccess
+    - account_name: "rh-3rd-party-tools"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-roundmenu"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-assets"
+      permissions: 
+      - adminAccess
+    - account_name: "it-dns-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "people-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-staging"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "backup-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-staging"
+      permissions: 
+      - adminAccess
+    - account_name: "dr-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "networking"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "tooling-sre"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-staging"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-commons"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "sre-team"
+assignments:
+  accounts:
+    - account_name: "prod-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "networking"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "raptor"
+assignments:
+  accounts:
+    - account_name: "prod-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-sre"
+      permissions: 
+      - adminAccess
+    - account_name: "tooling-sre"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-cloudeng"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-yoda"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "kube-infraops"
+assignments:
+  accounts:
+    - account_name: "staging-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "storage-team"
+assignments:
+  accounts:
+    - account_name: "prod-pay"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-tools"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "rh-dr"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-yoda"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "dev-sre"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "prod-payvas"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "dev-pay"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "data-pay"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "sit-pay"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "rackspace-tickets"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "aws-rh-dev"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "identity-cloudeng"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "superapp-dr"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "Application-Security-Dev"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "staging-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-cloudeng"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "sandbox-pay"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "superapp-dev"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "Application-Security-prod"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "dr-pay"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "bike-prod"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "marketing"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "rh-3rd-party-tools"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "prod-rh"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "security-logging-dev"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "prod-roundmenu"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "Application-Security-assets"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "it-dns-prod"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "people-prod"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "superapp-staging"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "backup-pay"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "Application-Security-staging"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "dr-bdp"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "dev-bdp"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "superapp-prod"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "dev-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-prod"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "tooling-sre"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "security-logging-staging"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "prod-commons"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "prod-bdp"
+      permissions: 
+      - dbaAccess
+      - poweruserAccess
+    - account_name: "staging-yoda"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - poweruserAccess
+      - dbaAccess
+---
+
+Functional_Team_name: "tpm"
+assignments:
+  accounts:
+    - account_name: "prod-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - readonlyAccess
+    - account_name: "superapp-tools"
+      permissions: 
+      - readonlyAccess
+    - account_name: "rh-dr"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-yoda"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-payvas"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "data-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "sit-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "rackspace-tickets"
+      permissions: 
+      - poweruserAccess
+    - account_name: "aws-rh-dev"
+      permissions: 
+      - readonlyAccess
+    - account_name: "superapp-dr"
+      permissions: 
+      - readonlyAccess
+    - account_name: "Application-Security-Dev"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "sandbox-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "superapp-dev"
+      permissions: 
+      - readonlyAccess
+    - account_name: "Application-Security-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dr-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "bike-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "marketing"
+      permissions: 
+      - readonlyAccess
+    - account_name: "rh-3rd-party-tools"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "security-logging-dev"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-roundmenu"
+      permissions: 
+      - readonlyAccess
+    - account_name: "Application-Security-assets"
+      permissions: 
+      - readonlyAccess
+    - account_name: "it-dns-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "people-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-staging"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "backup-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "Application-Security-staging"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dr-bdp"
+      permissions: 
+      - readonlyAccess
+    - account_name: "networking"
+      permissions: 
+      - readonlyAccess
+    - account_name: "superapp-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-yoda"
+      permissions: 
+      - readonlyAccess
+    - account_name: "security-logging-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "security-logging-staging"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-commons"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-bdp"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - readonlyAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - readonlyAccess
+---
+
+Functional_Team_name: "devx"
+assignments:
+  accounts:
+    - account_name: "prod-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-sre"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-payvas"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "data-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "sit-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "sandbox-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "dr-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-roundmenu"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "backup-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "dr-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "networking"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "tooling-sre"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "aws-team"
+assignments:
+  accounts:
+    - account_name: "prod-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-tools"
+      permissions: 
+      - adminAccess
+    - account_name: "rh-dr"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-sre"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-payvas"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "data-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "sit-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "rackspace-tickets"
+      permissions: 
+      - adminAccess
+    - account_name: "aws-rh-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "identity-cloudeng"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-dr"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-Dev"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-cloudeng"
+      permissions: 
+      - adminAccess
+    - account_name: "sandbox-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "dr-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "bike-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "marketing"
+      permissions: 
+      - adminAccess
+    - account_name: "rh-3rd-party-tools"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-roundmenu"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-assets"
+      permissions: 
+      - adminAccess
+    - account_name: "it-dns-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "people-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-staging"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "backup-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-staging"
+      permissions: 
+      - adminAccess
+    - account_name: "dr-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "tooling-sre"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-staging"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-commons"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-yoda"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "soc-team"
+assignments:
+  accounts:
+    - account_name: "prod-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "superapp-tools"
+      permissions: 
+      - poweruserAccess
+    - account_name: "rh-dr"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-yoda"
+      permissions: 
+      - poweruserAccess
+    - account_name: "dev-sre"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-payvas"
+      permissions: 
+      - poweruserAccess
+    - account_name: "dev-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "data-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "sit-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "aws-rh-dev"
+      permissions: 
+      - poweruserAccess
+    - account_name: "identity-cloudeng"
+      permissions: 
+      - poweruserAccess
+    - account_name: "Application-Security-Dev"
+      permissions: 
+      - poweruserAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "staging-rh"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-cloudeng"
+      permissions: 
+      - poweruserAccess
+    - account_name: "sandbox-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "superapp-dev"
+      permissions: 
+      - poweruserAccess
+    - account_name: "Application-Security-prod"
+      permissions: 
+      - poweruserAccess
+    - account_name: "dr-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "rh-3rd-party-tools"
+      permissions: 
+    - account_name: "prod-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-rh"
+      permissions: 
+      - poweruserAccess
+    - account_name: "security-logging-dev"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-roundmenu"
+      permissions: 
+      - poweruserAccess
+    - account_name: "Application-Security-assets"
+      permissions: 
+      - poweruserAccess
+    - account_name: "superapp-staging"
+      permissions: 
+      - poweruserAccess
+    - account_name: "people-prod"
+      permissions: 
+      - poweruserAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - poweruserAccess
+    - account_name: "backup-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "Application-Security-staging"
+      permissions: 
+      - poweruserAccess
+    - account_name: "dr-bdp"
+      permissions: 
+      - poweruserAccess
+    - account_name: "networking"
+      permissions: 
+      - poweruserAccess
+    - account_name: "dev-bdp"
+      permissions: 
+      - poweruserAccess
+    - account_name: "dev-yoda"
+      permissions: 
+      - poweruserAccess
+    - account_name: "security-logging-prod"
+      permissions: 
+      - poweruserAccess
+    - account_name: "tooling-sre"
+      permissions: 
+      - poweruserAccess
+    - account_name: "security-logging-staging"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-commons"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-bdp"
+      permissions: 
+      - poweruserAccess
+    - account_name: "staging-yoda"
+      permissions: 
+      - poweruserAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - poweruserAccess
+---
+
+Functional_Team_name: "soc-team-ro"
+assignments:
+  accounts:
+    - account_name: "prod-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - readonlyAccess
+    - account_name: "superapp-tools"
+      permissions: 
+      - readonlyAccess
+    - account_name: "rh-dr"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-yoda"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-sre"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-payvas"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "data-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "sit-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "aws-rh-dev"
+      permissions: 
+      - readonlyAccess
+    - account_name: "identity-cloudeng"
+      permissions: 
+      - readonlyAccess
+    - account_name: "Application-Security-Dev"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-cloudeng"
+      permissions: 
+      - readonlyAccess
+    - account_name: "sandbox-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "superapp-dev"
+      permissions: 
+      - readonlyAccess
+    - account_name: "Application-Security-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dr-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "rh-3rd-party-tools"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "security-logging-dev"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-roundmenu"
+      permissions: 
+      - readonlyAccess
+    - account_name: "Application-Security-assets"
+      permissions: 
+      - readonlyAccess
+    - account_name: "superapp-staging"
+      permissions: 
+      - readonlyAccess
+    - account_name: "people-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "backup-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "Application-Security-staging"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dr-bdp"
+      permissions: 
+      - readonlyAccess
+    - account_name: "networking"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-bdp"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-yoda"
+      permissions: 
+      - readonlyAccess
+    - account_name: "security-logging-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "tooling-sre"
+      permissions: 
+      - readonlyAccess
+    - account_name: "security-logging-staging"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-commons"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-bdp"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-yoda"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - readonlyAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - readonlyAccess
+---
+
+Functional_Team_name: "auditors-team"
+assignments:
+  accounts:
+    - account_name: "prod-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-yoda"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-sre"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-payvas"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "data-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "sit-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "rackspace-tickets"
+      permissions: 
+      - readonlyAccess
+    - account_name: "identity-cloudeng"
+      permissions: 
+      - readonlyAccess
+    - account_name: "superapp-dr"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-cloudeng"
+      permissions: 
+      - readonlyAccess
+    - account_name: "sandbox-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "superapp-dev"
+      permissions: 
+      - readonlyAccess
+    - account_name: "Application-Security-prod"
+      permissions: 
+      - poweruserAccess
+      - readonlyAccess
+    - account_name: "dr-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "bike-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "marketing"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-roundmenu"
+      permissions: 
+      - readonlyAccess
+    - account_name: "Application-Security-assets"
+      permissions: 
+      - poweruserAccess
+    - account_name: "it-dns-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "people-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "superapp-staging"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "backup-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dr-bdp"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-bdp"
+      permissions: 
+      - readonlyAccess
+    - account_name: "superapp-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-yoda"
+      permissions: 
+      - readonlyAccess
+    - account_name: "tooling-sre"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-commons"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-bdp"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-yoda"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - readonlyAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - readonlyAccess
+---
+
+Functional_Team_name: "web-platform"
+assignments:
+  accounts:
+    - account_name: "staging-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - readonlyAccess
+---
+
+Functional_Team_name: "identity"
+assignments:
+  accounts:
+    - account_name: "staging-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-rh"
+      permissions: 
+      - readonlyAccess
+---
+
+Functional_Team_name: "sre-now-team"
+assignments:
+  accounts:
+    - account_name: "prod-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-roundmenu"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-sre"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "ops-team"
+assignments:
+  accounts:
+    - account_name: "prod-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "sandbox-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-payvas"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "data-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dr-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "sit-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - readonlyAccess
+---
+
+Functional_Team_name: "mobility-be-core-experiences"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-mot"
+      permissions: 
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "mobility-engagement-and-acquisition"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-mot"
+      permissions: 
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "mobility-be-billing-and-pricing"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-mot"
+      permissions: 
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "mobility-be-partner-integrations"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "mobility-be-experience-infra"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-mot"
+      permissions: 
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "mobility-be-catalog"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-mot"
+      permissions: 
+    - account_name: "dev-mot"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "now"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+    - account_name: "prod-mot"
+      permissions: 
+    - account_name: "dev-mot"
+      permissions: 
+---
+
+Functional_Team_name: "maps-team"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-mot"
+      permissions: 
+      - poweruserAccess
+---
+
+Functional_Team_name: "bdp-team"
+assignments:
+  accounts:
+    - account_name: "prod-mot"
+      permissions: 
+    - account_name: "dev-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "dr-bdp"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "careem-genie"
+assignments:
+  accounts:
+    - account_name: "dev-bdp"
+      permissions: 
+---
+
+Functional_Team_name: "sre-pay-team"
+assignments:
+  accounts:
+    - account_name: "prod-rh"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-bdp"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "staging-rh"
+      permissions: 
+      - readonlyAccess
+    - account_name: "tooling-sre"
+      permissions: 
+      - readonlyAccess
+    - account_name: "sandbox-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-sre"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-payvas"
+      permissions: 
+      - adminAccess
+    - account_name: "dev-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "data-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "dr-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "sit-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "backup-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "aws-rh-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "mobility-architecture"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+      - adminAccess
+    - account_name: "it-dns-prod"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "catalog-search-and-discovery"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - poweruserAccess
+---
+
+Functional_Team_name: "argus-team"
+assignments:
+  accounts:
+    - account_name: "prod-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "staging-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "staging-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-payvas"
+      permissions: 
+      - poweruserAccess
+    - account_name: "data-pay"
+      permissions: 
+      - poweruserAccess
+---
+
+Functional_Team_name: "mobility-be-acquisition"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - poweruserAccess
+---
+
+Functional_Team_name: "be-orders-platform"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+      - readonlyAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - readonlyAccess
+---
+
+Functional_Team_name: "mobility-be-logistics-infra"
+assignments:
+  accounts:
+    - account_name: "staging-mot"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-mot"
+      permissions: 
+      - readonlyAccess
+---
+
+Functional_Team_name: "yoda"
+assignments:
+  accounts:
+    - account_name: "staging-yoda"
+      permissions: 
+      - poweruserAccess
+    - account_name: "prod-yoda"
+      permissions: 
+      - readonlyAccess
+---
+
+Functional_Team_name: "now-oncall"
+assignments:
+  accounts:
+    - account_name: "prod-mot"
+      permissions: 
+---
+
+Functional_Team_name: "mot-catalog-ops"
+assignments:
+  accounts:
+    - account_name: "prod-mot"
+      permissions: 
+---
+
+Functional_Team_name: "security-team"
+assignments:
+  accounts:
+    - account_name: "prod-pay"
+      permissions: 
+    - account_name: "superapp-tools"
+      permissions: 
+      - adminAccess
+    - account_name: "rh-dr"
+      permissions: 
+      - readonlyAccess
+    - account_name: "dev-pay"
+      permissions: 
+      - readonlyAccess
+    - account_name: "data-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "rackspace-tickets"
+      permissions: 
+      - poweruserAccess
+    - account_name: "aws-rh-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "superapp-dr"
+      permissions: 
+      - readonlyAccess
+    - account_name: "Application-Security-Dev"
+      permissions: 
+      - readonlyAccess
+      - adminAccess
+    - account_name: "superapp-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "marketing"
+      permissions: 
+      - poweruserAccess
+    - account_name: "rh-3rd-party-tools"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "Application-Security-assets"
+      permissions: 
+      - adminAccess
+    - account_name: "it-dns-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "people-prod"
+      permissions: 
+      - poweruserAccess
+    - account_name: "superapp-staging"
+      permissions: 
+      - readonlyAccess
+    - account_name: "Application-Security-staging"
+      permissions: 
+      - adminAccess
+    - account_name: "networking"
+      permissions: 
+      - poweruserAccess
+    - account_name: "superapp-prod"
+      permissions: 
+      - readonlyAccess
+    - account_name: "security-logging-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-staging"
+      permissions: 
+      - adminAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "pay"
+assignments:
+  accounts:
+    - account_name: "prod-pay"
+      permissions: 
+    - account_name: "staging-pay"
+      permissions: 
+    - account_name: "sandbox-pay"
+      permissions: 
+      - adminAccess
+    - account_name: "prod-payvas"
+      permissions: 
+    - account_name: "dev-pay"
+      permissions: 
+    - account_name: "dr-pay"
+      permissions: 
+    - account_name: "data-pay"
+      permissions: 
+      - poweruserAccess
+    - account_name: "sit-pay"
+      permissions: 
+---
+
+Functional_Team_name: "logging-kibana"
+assignments:
+  accounts:
+    - account_name: "security-logging-staging"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-prod"
+      permissions: 
+      - adminAccess
+    - account_name: "security-logging-dev"
+      permissions: 
+      - adminAccess
+    - account_name: "logging-pay"
+      permissions: 
+      - adminAccess
+---
+
+Functional_Team_name: "core"
+assignments:
+  accounts:
+    - account_name: "staging-pay"
+      permissions: 
+      - poweruserAccess
+---
+
+Functional_Team_name: "pay-power-user"
+assignments:
+  accounts:
+    - account_name: "staging-pay"
+      permissions: 
+      - poweruserAccess
+---
+
+Functional_Team_name: "bike-team"
+assignments:
+  accounts:
+    - account_name: "bike-prod"
+      permissions: 
+      - poweruserAccess
+---
