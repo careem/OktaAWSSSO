@@ -1,0 +1,24 @@
+name: "Base-Polcies"
+permissionsets:
+  permission-name: "poweruserAccess"
+  policies: 
+  - "arn:aws:iam::aws:policy/PowerUserAccess"
+
+  permission-name: "readonlyAccess"
+  policies: 
+  - "arn:aws:iam::aws:policy/ReadOnlyAccess"
+
+  permission-name: "adminAccess"
+  policies: 
+  - "arn:aws:iam::aws:policy/AdministratorAccess"
+  
+  permission-name: "dbaAccess"
+  policies: 
+  - "arn:aws:iam::aws:policy/job-function/DatabaseAdministrator"
+---
+name: sre-team
+permissionsets:
+  permission-name: sre-team-dbaAccess
+  policies: 
+  - arn:aws:iam::aws:policy/job-function/DatabaseAdministrator
+  - "arn:aws:iam::aws:313916245795:policy/ReadElasticBeanStalkLogs"
