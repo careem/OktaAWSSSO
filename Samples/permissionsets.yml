@@ -1,4 +1,5 @@
-name: "Base-Polcies"
+---
+functional-team-name: "Base-Polcies"
 permissionsets:
   permission-name: "poweruserAccess"
   policies: 
@@ -15,10 +16,20 @@ permissionsets:
   permission-name: "dbaAccess"
   policies: 
   - "arn:aws:iam::aws:policy/job-function/DatabaseAdministrator"
+
+
 ---
-name: sre-team
+functional-team-name: "sre-team"
 permissionsets:
-  permission-name: sre-team-dbaAccess
+#this is just an illustrative example for custom policy in an account
+  permission-name: sre-dbaAccess-custom
   policies: 
-  - arn:aws:iam::aws:policy/job-function/DatabaseAdministrator
+  - "arn:aws:iam::aws:policy/job-function/DatabaseAdministrator"
+  - "arn:aws:iam::aws:313916245795:policy/ReadElasticBeanStalkLogs"
+---
+functional-team-: "IAM-team"
+permissionsets:
+  permission-name: IAM-Access-custom
+  policies: 
+  - "arn:aws:iam::aws:policy/job-function/DatabaseAdministrator"
   - "arn:aws:iam::aws:313916245795:policy/ReadElasticBeanStalkLogs"
