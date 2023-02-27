@@ -17,19 +17,34 @@ permissionsets:
   policies: 
   - "arn:aws:iam::aws:policy/job-function/DatabaseAdministrator"
 
+  #Example of Base access using combination of AWS Managed policies
+  permission-name: "DBA_ReadOnly_Access"
+  policies: 
+  - "arn:aws:iam::aws:policy/job-function/DatabaseAdministrator"
+  - "arn:aws:iam::aws:policy/ReadOnlyAccess"
 
 ---
 functional-team-name: "sre-team"
 permissionsets:
-#this is just an illustrative example for custom policy in an account
-  permission-name: sre-dbaAccess-custom
+  #this is just an illustrative example for custom policy in an account with account-alias : SRE-Dev
+  permission-name: "SRE-Dev-dbaAccess-customAccess"
   policies: 
   - "arn:aws:iam::aws:policy/job-function/DatabaseAdministrator"
   - "arn:aws:iam::aws:313916245795:policy/ReadElasticBeanStalkLogs"
 ---
+functional-team-: "Infra"
+permissionsets:
+  #Example for custom policy for group of Accounts used by SRE across 2 accounts
+  permission-name: "SRE-RDSEC2Admin-customAccess"
+  policies: 
+  - "arn:aws:iam::aws:policy/job-function/RDSAdministrator"
+  - "arn:aws:iam::aws:policy/job-function/EC2Administrator"
+  - "arn:aws:iam::aws:313916245795:policy/ReadElasticBeanStalkLogs"
+  - "arn:aws:iam::aws:665678234124:policy/ReadElasticBeanStalkLogs"
+---
 functional-team-: "IAM-team"
 permissionsets:
-  permission-name: IAM-Access-custom
+  permission-name: "IAM-Access-customAccess"
   policies: 
   - "arn:aws:iam::aws:policy/job-function/DatabaseAdministrator"
   - "arn:aws:iam::aws:313916245795:policy/ReadElasticBeanStalkLogs"
