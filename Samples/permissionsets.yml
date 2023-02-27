@@ -34,7 +34,7 @@ permissionsets:
 ---
 functional-team-: "Infra"
 permissionsets:
-  #Example for custom policy for group of Accounts used by SRE across 2 accounts
+  #Example for custom policy for group of Accounts used by Infra across 2 accounts - 313916245795, 665678234124
   permission-name: "SRE-RDSEC2Admin-customAccess"
   policies: 
   - "arn:aws:iam::aws:policy/job-function/RDSAdministrator"
