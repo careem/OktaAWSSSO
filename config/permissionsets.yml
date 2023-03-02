@@ -1,0 +1,38 @@
+---
+functional-team-name: "Base-Polcies"
+permissionsets:
+  - permission-name: "poweruserAccess"
+    policies: 
+    - "arn:aws:iam::aws:policy/PowerUserAccess"
+
+  - permission-name: "readonlyAccess"
+    policies: 
+    - "arn:aws:iam::aws:policy/ReadOnlyAccess"
+
+  - permission-name: "adminAccess"
+    policies: 
+    - "arn:aws:iam::aws:policy/AdministratorAccess"
+  
+  - permission-name: "DBA_ReadOnly_Access"
+    policies: 
+    - "arn:aws:iam::aws:policy/job-function/DatabaseAdministrator"
+    - "arn:aws:iam::aws:policy/ReadOnlyAccess"
+---
+functional-team-name: "Infra-Foundation-team"
+permissionsets:
+  - permission-name: "InfraFoundationSREReadonlyAccess"
+    policies: 
+    - "arn:aws:iam::aws:policy/ReadOnlyAccess"
+    - "arn:aws:iam::*:policy/ReadElasticBeanStalkLogs"
+  
+  - permission-name: "InfraFoundationSREPowerUserAccess"
+    policies: 
+    - "arn:aws:iam::aws:policy/PowerUserAccess"
+    - "arn:aws:iam::aws:policy/ReadOnlyAccess"
+    - "arn:aws:iam::*:policy/ReadElasticBeanStalkLogs"
+  
+  - permission-name: "InfraFoundationSREDBAAccess"
+    policies: 
+    - "arn:aws:iam::aws:policy/job-function/DatabaseAdministrator"
+    - "arn:aws:iam::*:policy/SessionManagerAccessToAllInstances"
+---
