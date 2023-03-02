@@ -1,0 +1,17 @@
+---
+Functional_Team_name: "Infra Foundation Team"
+assignments:
+  accounts:
+    - account_name: "dev-sre"
+      permissions: 
+      - adminAccess
+      - readonlyAccess
+    - account_name: "prod-cloudeng"
+      permissions: 
+      - adminAccess
+      - readonlyAccess
+    - account_name: "identity-cloudeng"
+      permissions: 
+      - adminAccess
+      - readonlyAccess
+---
